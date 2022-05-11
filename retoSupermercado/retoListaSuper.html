@@ -9,12 +9,20 @@
         figure{
             padding: 0;
             margin: 0;
-            width: 50px;
-            height: 50px;
+            width: 70px;
+            height: 70px;
         }
         img {
-            width: 50px;
-            height: 50px;
+            width: 70px;
+            height: 70px;
+        }
+        .container-figure{
+            width: 300px;
+            height: 300px;
+        }
+        .container-figure-img{
+            width: 300px;
+            height: 300px;
         }
     </style>
 </head>
@@ -28,41 +36,57 @@
                 <li>Frutas:
                     <ol>
                         <li>
-                            <img src="./pics/manzana.jpg" alt="es una manzana">
                             <a href="https://www.youtube.com/watch?v=yEMWUPVbhj0" target="_blank">Manzana</a>
+                            <figure>
+                                <img src="./pics/manzana.jpg" alt="es una manzana">
+                            </figure>
                         </li>
                         <li>
-                            <img src="./pics/platano.jpg" alt="es un platano">
                             <a href="https://www.youtube.com/watch?v=BjMmu2yBiqA" target="_blank">Platano</a>
+                            <figure>
+                                <img src="./pics/platano.jpg" alt="es un platano">
+                            </figure>
                         </li>
                     </ol>
                 </li>
                 <li>Carnes:
                     <ol>
                         <li>
-                            <img src="./pics/pollo.jpg" alt="es un pollo">
                             <a href="https://www.youtube.com/watch?v=8fz_GMOP5Qc" target="_blank">Pollo</a>
+                            <figure>
+                                <img src="./pics/pollo.jpg" alt="es un pollo">
+                            </figure>
                         </li>
                         <li>
-                            <img src="./pics/carne-molida.jpg" alt="es carne molida">
                             <a href="https://www.youtube.com/watch?v=GMjV6ArnAQc" target="_blank">Carné molida</a>
+                            <figure>
+                                <img src="./pics/carne-molida.jpg" alt="es carne molida">
+                            </figure>
                         </li>
                     </ol>
                 </li>
                 <li>Verduras:
                     <ol>
                         <li>
-                            <img src="./pics/limón.jpg" alt="en un limón">
                             <a href="https://www.youtube.com/watch?v=F6aXTkat9Cs" target="_blank">Limón</a>
+                            <figure>
+                                <img src="./pics/limón.jpg" alt="en un limón">
+                            </figure>
                         </li>
                         <li>
-                            <img src="./pics/zanahoria.jpg" alt="es una zanahoria">
                             <a href="https://www.youtube.com/watch?v=VDi0k59JrKc" target="_blank">Zanahoria</a>
+                            <figure>
+                                <img src="./pics/zanahoria.jpg" alt="es una zanahoria">
+                            </figure>
                         </li>
                     </ol>
                 </li>
             </ul>
         </section>
+        <figure class="container-figure">
+            <img src="./pics/limón.jpg" alt="estos son limones" class="container-figure-img">
+            <figcaption>Estos son limones, usando contenedor figure</figcaption>
+        </figure>
     </main>
     <footer>
         <p>Creado con amor</p>
