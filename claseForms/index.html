@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="">
+        <!--3 formas de hacer campos-->
+        <!-- 1. label e input separados, se referencia el id del input en el atributo for
+        del label, ES LA FORMA MÁS COMÚN Y LA QUE MÁS SE ENCUENTRA EN LA WEB.
+        Atributo placeholder para agregar una descripcion dentro del input-->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Tu nombre"/>
+        <!-- 2. label como contenedor, NO es necesario utilizar el atributo for de
+        label, ya que seria redundante. En este caso usamos una etiqueta span para
+        realizar la descripcion del input.  -->
+        <label>
+            <span>¿Qué día comenzaste en Platzi?</span>
+            <input type="date" />
+        </label>
+        <!-- 3. label como contenedor, NO es necesario utilizar el atributo for de
+        label, ya que seria redundante. NO usamos la etiqueta span, aplicamos la
+        descripcion con el mismo label  -->
+        <label>
+            ¿En que horario estudias?
+            <input type="time" />
+        </label>
+    </form>
+</body>
+</html>
