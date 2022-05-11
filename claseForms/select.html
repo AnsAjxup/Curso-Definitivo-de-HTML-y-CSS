@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <main>
+        <!-- 1ra forma, mediante la etiqueta select y etiquetas option -->
+        <select name="cursos" id="">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML5">HTML5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Web Standars">Web Standars</option>
+        </select>
+        <br>
+        <br>
+        <!-- 2da forma, ESTA FORMA ES UNA BUENA PRACTICA. Mediante un input con
+        atributo list, y una etiqueta datalist con etiquetas option, en este caso
+        solo necesitamos poner las opciones en el atributo value -->
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="Web Standars"></option>
+        </datalist>
+    </main>
+</body>
+</html>
