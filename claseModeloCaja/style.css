@@ -1,0 +1,20 @@
+/*Es una buena practica usar el selector universal (*)
+para inicializar todos nuestros elementos con margenes,
+padding y boxsizig iguales*/
+* {
+    /*box-sizing: border-box = esta propiedad sirve para
+    indicarle al width y height que deben tener en cuenta
+    el borde, padding y margin. Para mantener el tamaño
+    que se les fue asignado al ancho y alto, y evitar que 
+    estos midan mas de lo que se les fue asignado*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}
