@@ -43,8 +43,8 @@
 .card__meme {
     width: 100px;
     height: 100px;
-    margin: 0 100px;
-    align-items: center;
+    margin: 0 auto;
+    display: block;
 }
 figure {
     width: 100%;
